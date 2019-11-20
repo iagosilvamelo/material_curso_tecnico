@@ -1,0 +1,26 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 'on');
+require_once ('config.php');
+include_once ('db.php');
+include_once ('marcas.class.php');
+
+//conecta ao banco
+$database = new Database();
+$db = database->conect();
+
+
+
+$app -> route ('GET /', home($twig));
+function home($twig){
+    echo $twig->render('home.twig');
+}
+
+
+
+$app -> route ('GET /marcas', marcas($twig, $db));
+function marcas($twig, $db){
+    $carros = new Automovel($db);
+    $marcas = $carros->readAll();
+}
+?>

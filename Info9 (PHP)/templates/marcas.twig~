@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Primeiro Twig</title>
+</head>
+
+<body>
+{% for marcas in marcas %}
+{% endfor %}
+</body>
+</html>

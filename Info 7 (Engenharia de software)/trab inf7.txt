@@ -1,0 +1,30 @@
+Trabalhho inf7
+Sistema E-commerce
+
+	-Usuário pode se cadastrar
+	-e-mail (único)* 						*obrigatório
+	-senha*
+	-CPF (único)*
+	-Endereço
+	-Cartão de crédito
+	-Usuário pode editar seus dados
+	-email
+	-senha
+	-endereço
+	-cartão de crédito
+	-usuário pode excluir conta
+	-usuário pode visualizar conta
+	-sistema exibe lista de produtos
+	-usuário finaliza compra(s) pelo carrinho
+	-compra só pode ser paga com cartão de crédito
+	-sistema possui integração com estoque
+	-para selecionar produtos, não é obrigatório estar logado/cadastrado.
+	-para finalizar compra é obrigatório logar em conta existente ou se cadastrar
+
+1) Desenvolver requisitos funcionais p/ crud de usuário e 2 req. A sua escolha.
+2) Desenvolver 3 requisitos não funcionais
+3) Desenvolver diagrama de casos de uso (completo - sistema inteiro)
+4) Desenvolver 3 descrições de casos de uso (a escolha)
+5) Realizar 4 diagramas de atividade para CRUD.
+6) Desenvolver diagrama de classes   |----> Sistema inteiro	
+7) Desenvolver diagrama ER           |

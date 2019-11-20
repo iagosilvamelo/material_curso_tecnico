@@ -1,0 +1,43 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+<ul class="breadcrumb">
+	<li>
+		<a href="index.php">Home</a> <span class="divider"></span>
+	</li>
+	<li class="active">
+		<a href="listagem.php">Listagem</a> <span class="divider"></span>
+	</li>
+</ul>
+<div class="page-header">
+	
+	<h2>Ver usuário</h2>
+						
+    	<dl class="dl-horizontal">
+			<dt>Nome</dt>
+			<dd>{{ marcas.nome }}</dd>
+		</dl>
+						
+		<dl class="dl-horizontal">
+			<dt>Origem</dt>
+			<dd>{{ marcas.origem }}</dd>
+		</dl>
+		
+		<dl class="dl-horizontal">
+			<dt>Presidente</dt>
+			<dd>{{ marcas.presidente }}</dd>
+		</dl>
+
+        <dl class="dl-horizontal">
+			<dt>Turma</dt>
+			<dd>{{ marcas.fundacao }}</dd>
+		</dl>
+		
+		<div class="form-group text-center">
+			<div class="col-md-8" >
+				<a href="listagem.php" class="btn btn-default">Voltar</a>
+			</div>
+		</div>
+						
+</div> <!-- class="page header" -->
+{% endblock %}

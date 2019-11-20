@@ -1,0 +1,99 @@
+﻿Iago Fabricio Silva Melo
+
+1. Marque V para as afirmações verdadeiras e F para as falsas:
+
+(F) Engenharia de software trata-se da área de computação que aborda a construção de sistemas da informação como um produto comercial.
+(F) Nos primeiros anos que o desenvolvimento de software ganhou notoriedade o profissionalismo utilizado na construção de programas ficou evidente.
+(V) O termo “A Crise do Software” expressava as dificuldades do desenvolvimento de software frente a grande demanda existent, da complexidade dos problemas a serem resolvidos e da inexistência de técnicas estabelecidas para o desenvolvimento de sistemas que funcionassem adequadamenteoi ou pudessem ser validados.
+(V) Um projeto que obedeça apenas prazo e custo não pode ser considerado bem sucedido.
+(F) A engenharia de software busca prover tecnologia e conhecimento necessário para produzir software de alta qualidade e alto custo.
+(F) É possível fazer uma estimativa, com efetividade e qualidade, de custo e prazo para desenvolvimento de um software com apenas alguns poucos minutos de conversa.
+
+2. Explique brevemente cadauma das etapas do ciclo de vida de projetos
+
+Requisitos: Levantamento do que deve conter no software.
+Análise: Modelar de forma precisa os conceitos relevantes do domínio do problema.
+Desenho: Definir uma estrutura implementável para um produto de software que atenda os requisitos.
+Implementação: Geração do código
+Teste: Trata da verificação dinâmica do funcionamento do programa utilizando um conjunto de casos de teste.
+
+3. Relacione os tipos de ciclo de vida de projetos da primeira coluna com a descrição correspondente na segunda:
+
+a – Codifica-remenda
+b – Cascata
+c – Espiral
+d – Incremental
+
+(d) Versões parciais do produto são entregues ao cliente conforme o andamento do projeto.
+(c) Apesar de ser por partes, a entrega ao cliente não se dá a cada iteração ou com um conjunto delas.
+(b) Modelo muito utilizado no passado  que também foi conhecido como modelo sequencial linear.
+(a) É utilizado por pessoas que não tem conhecimento em Engenharia de software.
+
+4. Quais são os 3 fatores que definem um projeto de sucesso?
+Atender aos requizitos, prazo e custo.
+
+5. Qual é um dos maiores problemas a ser superado no projetos de software.
+Falta de comunicação entre as partes envolvidas no projeto.
+
+6. Diferencie requisito funcional de não-funcional:
+Funcional: Descrevem explicitamente as funcionalidades e serviços do sistema.
+Não-funcional: Definem propriedades e restrições do sistema.
+
+7. Além do código, o que mais é gerado na fase de implementação?
+A documentação do produto.
+
+8. Relacione as colunas sobre os diferentes métodos para levantamento de requisitos:
+
+a – Método de conversação.
+b – Método de observação.
+C – Método analítico.
+D – Método sintético
+
+(a) Fornece um meio de comunicação verbal entre duas ou mais pessoas. Sendo uma foma natural de expressar as necessidades, ideias e responder as perguntas, é bastante eficaz para identificar e compreender as necessidades do entrevistado.
+(c) Conjunto de técnicas para análise de documentação e conhecimento existentes com o intuito de adquirir requisitos através do levantamento de informações pertinentes ao sistema a ser especificado, como por exemple, domínio do negócio, fluxos de trabalho e características do produto.
+(d) São formados pela combinação das outras técnicas em uma única.
+(b) Utilizado para a compreensão do domínio da aplicação, observando as atividades humanas.
+
+9. Nomeie a técnica conforme sua descrição:
+
+a) Conversação_: É uma das técnicas tradicionais mais simples de utilizar e produzir bons resultados na faze inicial da obtenção de dados. Porém o entrevistador deve dar espaço ao entrevistado para esclarecer suas necessidades.
+b) Observação_: A técnica resumi-se em visitar o local em foco com a finalidade de observação do mesmo. Permitindo assim, coletar informações de acordo com o cotidiano das operaçõs e execução dos processos diários do local.
+c) Analítico_: Estudo e reutilização de especificações e glossários referente a projetos de sistemas legados ou sistemas de mesma família (com funcionalidades de negócio similares).
+d) Sintético_: Consiste em werkshops e sessões de grupo nos quais stakeholders e analistas de requisitos de encontram para discutir as características desejadas do produto. Seu objetivo p3 envolver todos os stakeholders importantes no processo de levantamento, através de reuniões estruturadas e com foco bem definido.
+
+10. Qual é considerado o tripé da engenharia de software? Explique porque cada elemento faz parte do tripé.
+
+Processos, pessoas e tecnologia. Não adianta ter os melhores profissionais do mundo se não possuímos boas tecnologias ou se não possuímos um processo que guie o desenvolvimento de software. Não adianta possuir boas tecnologias se não há profissionais capacitados para utilizá-las de forma devida. Não adianta possuir os melhores profissionais e melhores tecnologias sem o processo para guiar as atividades.
+
+11. Quais características um requisito bem coletado deve ter?
+
+Funcionalidades, interfaces externas e desenho.
+
+12. Qual disciplina da engenharia de software dera o diagrama de casos de uso? E qual gera o diagrama de classes?
+
+Casos de uso: Requisitos
+Classes: Análise
+
+13. Sobre os mitos de software, relaciona as colunas:
+
+a – Mito do cliente.
+B – Mito do profissional.
+C – Mito do gerenciamento.
+
+(b) Após a filalização do programa e sua implementação, o trabalho está terminado.
+(c) Se o desenvolvimento de software estiver atrasado, aumentando a equipe poderemos reduzir o tempo de desenvolvimento.
+(a) Os requisitos de um projeto mudam continuamente durante o seu desenvolvimento, mas isto não representa um problema, uma vez que o software é flexivel e poderá suportar facilmente as alterações.
+
+15. O diagrama mostrado abaixo mostra o processo de qual etapa do ciclo de vida de projetos?
+
+Análise.
+
+16. Supondo o desenvolvimento de um projeto para um sistema de streaming online de filmes (i.e. Netflix). Crie um requisito funcional relacionado a criaçãode usuários.
+
+RF001 – Registro de usuário
+Especificação funcional detalhada:
+Esta função deve cadastrar um novo usuário ao sistema. O usuário poderá efetuar seu cadastro na página fornecendo: nome, e-mail, número do cartão de crédito e senha.
+Regras de negócio:
+Todos os campos são de preenchimento obrigatório.
+Deverá ser comprovada a autenticidade dos dados.
+A senha deve conter no mínimo 8 caracteres, letras, números e caracteres especiais.

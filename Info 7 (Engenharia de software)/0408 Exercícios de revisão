@@ -1,0 +1,109 @@
+ 
+Exercícios de revisão
+
+1.  O que é engenharia de software?
+2.  O que foi a crise de software?
+3.  Quais são os 3 fatores que definem um projeto de sucesso?
+4.  Qual é um dos maiores problemas a ser superado nos projetos de software?
+5.  A crise de software acabou? Explique.
+6.  Qual é o tripé da engenharia de software?
+7.  Explique o tripé da engenharia de software.
+8.  Quais são as 3 categorias dos mitos de software?
+9.  Cite um mito de cada categoria e sua respectiva realidade.
+10. É possível fazer uma estimativa de custo e prazo para o desenvolvimento de um software com apenas alguns minutos de conversa? Explique sua resposta.
+11. Quais são as etapas do processo de software?
+12. Quais são as etapas do cicle de vida de um projeto de software?
+13. Cite e explique 3 modelos de ciclo de vida de projetos.
+14. Quais são as principais características do RUP?
+15. Quais são os princípios do RUP?
+16. Quai são as fazes do modelo RUP e do que cada uma trata?
+17. Do que se trata a faze de levantamento de requisitos?
+18. O que são requisitos?
+19. Diferencie requisito funcional de não-funcional.
+20. Quais características um requisito bem coletado deve ter?
+21. O que é um caso de uso?
+22. O que é um ator?
+23. Qual o objetivo da fase de análise no ciclo de vida de um projeto?
+24. O que é um diagrama de classe?
+25. Quais passos dão origem ao diagrama de classe?
+26. Qual o objetivo da fase de design do projeto?
+27. Qual o foco da fase de design?
+28. Do que a fase de implementação no ciclo de vida de projeto trata?
+29. Quais as tarefas da fase de implementação?
+30. Além do código, o que mais é gerado na fase de implementação?
+
+RESPOSTAS:
+
+1.  Área de computação que aborda construção de sistema de informação como um produto de engenharia.
+
+2.  Dificuldade do desenvolvimento de software frente ao rápido crescimento da demanda existente, da complexidade dos problemas a serem resolvidos e a inexistência
+de técnicas estabelecidas para o desenvolvimento de sistemas que funcionassem adequadamente ou pudessem ser válidos.
+
+3.  
+
+4.  O fato de boa parte das organizações não encararem o desenvolvimento de software como um projeto de verdade, aplicando as técnicas, métodos e ferramentas necessárias.
+
+5.  Sim mas somente para os que utilizam a engenharia de software. Usando corretamente a engenharia de software, as chances de sucesso de um projeto são grandes.
+
+6.  Processos, pessoas e técnologias.
+
+7.  Não adianta termos os melhores profissionais do mundo se não possuímos boa tecnologia ou se não possuímos um processo que guie o desenvolvimento de software.
+    Não adianta possuir boas tecnologias se nao tiver profissionais capacitados para utiliza-las de forma devida.
+    Não adianta possuir os melhores profissionais e melhores tecnologias sem o processo para guiar as atividades.
+   
+8.  Mitos de gerenciamento, mitos do cliente e mitos do profissional.
+
+9.  Mito de gerenciamento: Se a equipe dispoem de um manual repleto de padrões e procedimentos de desenvolvimento de software, então a equipe será capaz de conduzir
+    bem o desenvolvimento.
+    Mito do cliente: Uma descrição breve e geral dos requisitos do software é o suficiente para iniciar seu projeto. Maiores detalhes podem ser definidos posteriormente.
+    mito do profissional: Após a finalização do programa e sua implantação, o trabalho está terminado.
+    
+10. Não, esse é um dos problemas que podem conduzir o projeto ao fracasso, o cliente deve procurar definir o mais precisamente possível todos os requisitos importantes
+    para o software.
+    
+11. A concepção, o desenvolvimento, a operação e a retirada.
+
+12. requisitos, análise, desenho, implementação e teste.
+
+13. Análise: Modelagem dos conceitos relevantes do domínio do problema, com o intuito de verificar a qualidade dos requisitos obtidos e detalhar aos desenvolvedores.
+    Desenho: Definição de uma estrutura implementável para um produto, que atenda aos requisitos especificados.
+    Implementação: Codificação das partes que compõe o software, definidas no desenho, utilizando as tecnologias selecionadas.
+    
+14. Baseado em componentes, utiliza linguagem UML, guiado por casos de uso, centrado na arquitetura, iterativo, incremental, configurável e bem definido.
+
+15. Atacar os riscos cedo e continuamente, certificar-se de entregar algo de valor ao cliente, focar no software executável, acomodar mudanças cedo, liberar um executável
+da arquitetura cedo, construir o sistema com componentes, trabalhar junto com um time e fazer da qualidade um estilo de vida, não algo para depois.
+
+16. Concepção: Define o escopo do projeto.
+    Elaboração: Define os requisitos e a arquitetura.
+    Construção: Desenvolve o sistema.
+    Transição: Implanta o sistema.
+
+17. 
+
+18. Qualquer desejo, necessidade, expectativa ou restrição do cliente em relação ao software.
+
+19. Funcionais: Todas as funcionalidades do sistema, o que deve e o que não deve fazer.
+    Não funcionais: As propriedades do sistema como espaço em disco, segurança e desempenho.
+
+20. 
+
+21. 
+
+22. 
+
+23. 
+
+24. 
+
+25. 
+
+26. 
+
+27. 
+
+28. 
+
+29. 
+
+30. 

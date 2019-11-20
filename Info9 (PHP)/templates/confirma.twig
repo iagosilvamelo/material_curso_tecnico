@@ -1,0 +1,37 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+<div class="page-header">
+	<p class="alert alert-danger">Tem certeza?</p>
+		<h2>Deleta usuário</h2>
+		<form class="form-horizontal" action="deletar.php" method="post">
+			<input type="hidden" name="id" value="{{ marcas.id }}" />
+			<dl class="dl-horizontal">
+				<dt>Nome</dt>
+				<dd>{{ marcas.Nome }}</dd>
+			</dl>
+			
+			<dl class="dl-horizontal">
+				<dt>Origem</dt>
+				<dd>{{ marcas.Origem }}</dd>
+			</dl>
+			
+			<dl class="dl-horizontal">
+				<dt>Presidente</dt>
+				<dd>{{ marcas.Presidente }}</dd>
+			</dl>
+
+            <dl class="dl-horizontal">
+				<dt>Fundação</dt>
+				<dd>{{ marcas.Fundacao }}</dd>
+			</dl>
+		
+		<div class="form-group text-center">
+			<div class="col-md-8" >
+				<a href="listagem.php" class="btn btn-default">Voltar</a>
+				<button type="submit" class="btn btn-danger">Deletar</button>
+			</div>
+		</div>
+	</form>
+</div> <!-- class="page header" -->
+{% endblock %}

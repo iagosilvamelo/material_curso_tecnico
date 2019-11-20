@@ -1,0 +1,57 @@
+﻿{% extends 'base.twig' %}
+
+
+{% block content %}
+
+<p><a class="btn btn-success" href="inserir.php">INSERIR</a>
+
+
+<table class="table table-stripped table-bordered table-condensed"
+
+    <thead>
+
+        <tr>
+
+            <th>Nome</th>
+
+		    <th>Origem</th>
+
+		    <th>Presidente</th>
+
+		    <th>Fundacao</th>
+
+		    <th>Opções</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        {% for m in marcas %}
+
+	        <tr>
+	
+                <td>{{ m.Nome }}</td>
+
+				<td>{{ m.Origem }}</td>
+
+				<td>{{ m.Presidente }}</td>
+
+				<td>{{ m.Fundacao }}</td>
+
+				<td><a class="btn btn-default" href="ver.php?id={{ m.id }}">VER</a>
+
+				<a class="btn btn-warning" href="alterar.php?id={{ m.id }}">ALTERAR</a>
+
+				<a class="btn btn-danger" href="deletar.php?id={{ m.id }}">DELETAR</a></td>
+
+		    </tr>
+
+        {% endfor %}
+
+    </tbody>
+
+</table>
+
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+<div class="page-header">
+	<form class="form-horizontal" action="alterar.php" method="post">
+		<h2>{{ cabecalho }}</h2>
+		<input type="hidden" name="id" value="{{ marcas.id }}" />
+		<div class="form-group">
+			<label for="nome" class="col-md-4 control-label">Nome</label>
+			<div class="col-md-4">
+				<input  class="form-control input-md" type="text" name="nome" value="{{ marcas.Nome }}" />
+			</div>
+		</div>
+		<div class="form-group">
+		<label for="origem" class="control-label col-md-4">Origem</label>
+			<div class="col-md-4">
+				<input type="text" name="origem" class="form-control input-md" value="{{ marcas.Origem }}" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="presidente" class="control-label col-md-4">Presidente</label>
+			<div class="col-md-4">
+				<input type="text" name="presidente" class="form-control input-md" value="{{ marcas.Presidente }}" />
+			</div>
+		</div>
+        <div class="form-group">
+			<label for="fundacao" class="control-label col-md-4">Fundação</label>
+			<div class="col-md-4">
+				<input type="text" name="fundacao" class="form-control input-md" value="{{ marcas.Fundacao }}" />
+    		</div>
+		</div>
+		<div class="form-group text-center">
+			<div class="col-md-8" >
+				<button type="submit" class="btn btn-success">Gravar</button>
+			</div>
+		</div>
+	</form>
+</div>
+{% endblock %}
